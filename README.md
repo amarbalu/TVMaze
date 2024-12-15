@@ -1,7 +1,7 @@
-
 # TV Shows Web Application
 
 This project is a full-stack application that allows users to list and view details of TV shows. It consists of:
+
 - **Backend**: A Java-based REST API to fetch and process TV show details using the TVMaze API.
 - **Frontend**: A React-based UI to display TV shows and their details.
 - **Docker**: Both backend and frontend are containerized and managed using `docker-compose`.
@@ -9,6 +9,7 @@ This project is a full-stack application that allows users to list and view deta
 ---
 
 ## Table of Contents
+
 1. [Project Overview](#project-overview)
 2. [Technologies Used](#technologies-used)
 3. [Setup and Running the Application](#setup-and-running-the-application)
@@ -21,6 +22,7 @@ This project is a full-stack application that allows users to list and view deta
 ## Project Overview
 
 The application provides the following features:
+
 1. Consume a provided `tvtitles.txt` file, process the titles, and fetch show details from the [TVMaze API](http://api.tvmaze.com/).
 2. List all TV shows.
 3. Display detailed information about individual TV shows.
@@ -45,17 +47,21 @@ The application provides the following features:
 ## Setup and Running the Application
 
 ### Prerequisites
+
 1. Docker and Docker Compose installed on your system.
 2. Java 8+ and Node.js (optional for local setup).
 
 ### Steps to Run the Application
+
 1. Clone or extract the repository:
+
    ```bash
-   git clone [git@github.com:amarbalu/TVMaze.git](https://github.com/amarbalu/TVMaze.git)
+   git clone https://github.com/amarbalu/TVMaze.git
    cd TVMaze
    ```
 
 2. Start the application using Docker Compose:
+
    ```bash
    docker-compose up --build
    ```
@@ -65,7 +71,9 @@ The application provides the following features:
    - **Backend**: [http://localhost:8080](http://localhost:8080)
 
 ### Local Development (Without Docker)
+
 1. **Backend**:
+
    - Navigate to the `backend` directory and build the application:
      ```bash
      cd backend
@@ -86,21 +94,24 @@ The application provides the following features:
 
 ## API Endpoints Documentation
 
-| Method | Endpoint                 | Description                         |
-|--------|---------------------------|-------------------------------------|
-| GET    | `/api/shows`             | Fetch the list of TV shows          |
-| POST   | `/api/shows`             | Add TV show titles from `tvtitles.txt` |
-| GET    | `/api/shows/{id}`        | Fetch details of a specific TV show |
+| Method | Endpoint          | Description                            |
+| ------ | ----------------- | -------------------------------------- |
+| GET    | `/api/shows`      | Fetch the list of TV shows             |
+| POST   | `/api/shows`      | Add TV show titles from `tvtitles.txt` |
+| GET    | `/api/shows/{id}` | Fetch details of a specific TV show    |
 
 ### Sample API Usage
 
 #### 1. Fetch All TV Shows
+
 **Request**:
+
 ```bash
 GET /api/shows
 ```
 
 **Response**:
+
 ```json
 [
   {
@@ -119,12 +130,15 @@ GET /api/shows
 ```
 
 #### 2. Fetch TV Show Details
+
 **Request**:
+
 ```bash
 GET /api/shows/1
 ```
 
 **Response**:
+
 ```json
 {
   "id": 1,
