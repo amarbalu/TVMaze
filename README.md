@@ -65,21 +65,23 @@ The TV Shows Web Application provides the following features:
 2. Clone the frontend repository:
 
    cd tvshow-frontend
+   
    git clone https://github.com/amarbalu/tvshow-frontend.git
 
 
-3. Clone the backend repository:
+4. Clone the backend repository:
 
    cd tvshow-backend
+   
    git clone https://github.com/amarbalu/tvshow-backend.git
 
 
-4. Start the application:
+5. Start the application:
 
    docker-compose up --build
 
 
-5. Access the application:
+6. Access the application:
    - **Frontend**: [http://localhost:3000](http://localhost:3000)
    - **Backend**: [http://localhost:8080](http://localhost:8080)
 
@@ -91,6 +93,7 @@ The TV Shows Web Application provides the following features:
    - Clone the backend repository:
 
      cd tvshow-backend
+     
      ./mvnw spring-boot:run
 
    - Backend will be accessible at \`http://localhost:8080\`.
@@ -99,7 +102,9 @@ The TV Shows Web Application provides the following features:
    - Clone the frontend repository:
 
      cd tvshow-frontend
+     
      npm install
+     
      npm start
 
    - Frontend will be accessible at \`http://localhost:3000\`.
