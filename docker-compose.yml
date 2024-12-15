@@ -3,7 +3,7 @@ version: "3.9"
 services:
   front:
     build:
-      context: ./frontend
+      context: ./tvshow-frontend
       dockerfile: Dockerfile
     ports:
       - "3000:80"
@@ -16,7 +16,7 @@ services:
 
   back:
     build:
-      context: ./backend
+      context: ./tvshow-backend
       dockerfile: Dockerfile
     ports:
       - "8080:8080"
