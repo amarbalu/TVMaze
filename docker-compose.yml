@@ -21,7 +21,7 @@ services:
     ports:
       - "8080:8080"
     volumes:
-      - ./backend/src/main/resources:/app/src/main/resources
+      - ./tvshow-backend/src/main/resources:/app/src/main/resources
     environment:
       SPRING_APPLICATION_NAME: TV Show Backend
       APP_FILEPATH: /app/src/main/resources/tvtitles.txt
