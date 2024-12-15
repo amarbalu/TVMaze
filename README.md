@@ -57,27 +57,27 @@ The TV Shows Web Application provides the following features:
 
 #### **Using Docker**
 1. Clone the main repository:
-   \`\`\`bash
+
    git clone https://github.com/amarbalu/TVMaze.git
    cd TVMaze
-   \`\`\`
+
 
 2. Clone the frontend repository:
-   \`\`\`bash
+
    cd tvshow-frontend
    git clone https://github.com/amarbalu/tvshow-frontend.git
-   \`\`\`
+
 
 3. Clone the backend repository:
-   \`\`\`bash
+
    cd tvshow-backend
    git clone https://github.com/amarbalu/tvshow-backend.git
-   \`\`\`
+
 
 4. Start the application:
-   \`\`\`bash
+
    docker-compose up --build
-   \`\`\`
+
 
 5. Access the application:
    - **Frontend**: [http://localhost:3000](http://localhost:3000)
@@ -89,19 +89,19 @@ The TV Shows Web Application provides the following features:
 
 1. **Backend**:
    - Clone the backend repository:
-     \`\`\`bash
+
      cd tvshow-backend
      ./mvnw spring-boot:run
-     \`\`\`
+
    - Backend will be accessible at \`http://localhost:8080\`.
 
 2. **Frontend**:
    - Clone the frontend repository:
-     \`\`\`bash
+
      cd tvshow-frontend
      npm install
      npm start
-     \`\`\`
+
    - Frontend will be accessible at \`http://localhost:3000\`.
 
 ---
