@@ -64,14 +64,14 @@ The TV Shows Web Application provides the following features:
 
 2. Clone the frontend repository:
 
-   cd tvshow-frontend
+   rmdir tvshow-frontend
    
    git clone https://github.com/amarbalu/tvshow-frontend.git
 
 
 4. Clone the backend repository:
 
-   cd tvshow-backend
+   rmdir tvshow-backend
    
    git clone https://github.com/amarbalu/tvshow-backend.git
 
