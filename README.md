@@ -51,8 +51,8 @@ The application provides the following features:
 ### Steps to Run the Application
 1. Clone or extract the repository:
    ```bash
-   git clone <repository-link>
-   cd <project-directory>
+   git clone [git@github.com:amarbalu/TVMaze.git](https://github.com/amarbalu/TVMaze.git)
+   cd TVMaze
    ```
 
 2. Start the application using Docker Compose:
