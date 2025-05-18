@@ -42,6 +42,8 @@ git clone https://github.com/amarbalu/tvshow-backend.git
 # Run
 docker-compose up --build
 
+```
+
 Frontend: http://localhost:3000
 
 Backend: http://localhost:8080
